@@ -32,7 +32,7 @@ First, you need to extract features for knn by define extract=True (otherwise, i
 python attack.py
 ```
 
-We have provided the pretrained knn model for mnist dataset in this [url](https://drive.google.com/open?id=1LwUIr8_h6nzhtViwB1lkkH8McE_x8KWv)
+We have provided the pretrained knn model for mnist dataset in this [url](https://drive.google.com/open?id=1LwUIr8_h6nzhtViwB1lkkH8McE_x8KWv).
 
 ## References
 [Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust Deep Learning](https://arxiv.org/abs/1803.04765)
