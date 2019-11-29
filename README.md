@@ -5,8 +5,8 @@ This repository contains a PyTroch implementation of the algorithm presented in 
 
 Deep neural networks have been shown to be vulnerable to adversarial examples—maliciously crafted examples that can trigger the target model to misbehave by adding imperceptible perturbations. Existing attack methods for k-nearest neighbor (kNN) based algorithms either require large perturbations or are not applicable for large k. To handle this problem, this paper proposes a new method called AdvKNN for evaluating the adversarial robustness of kNNbased models. Firstly, we propose a deep kNN block to approximate the output of kNN methods, which is differentiable thus can provide gradients for attacks to cross the decision boundary with small distortions. Second, a new consistency learning for distribution instead of classification is proposed for the effectiveness in distribution based methods. Extensive experimental results indicate that the proposed method significantly outperforms state of the art in terms of attack success rate and the added perturbations.
 
-![AdvKnn1](imgs/illustration.png=100x100)
-![AdvKnn2](imgs/framework.png=100x100)
+![AdvKnn1](imgs/illustration.png)
+![AdvKnn2](imgs/framework.png)
 
 
 ## Prerequisites
@@ -16,8 +16,8 @@ The following packages are required to run the scripts:
 - Package [Advertorch](https://github.com/BorealisAI/advertorch)
 
 ## Result
-![MiniImage_Resule](imgs/acc_result.png=100x100)
-![MiniImage_Resule](imgs/cred_adv.png=100x100)
+![MiniImage_Resule](imgs/acc_result.png)
+![MiniImage_Resule](imgs/cred_adv.png)
 
 ## Usage
 
@@ -49,7 +49,7 @@ We have provided the pretrained knn model for mnist dataset in this [url](https:
 }
 ```
 ## Contact
-For questions please contact Yuefeng Chen at yuefeng.chenyf@alibaba-inc.com.
+For questions please contact Yuefeng Chen at fiona.lxd@alibaba-inc.com.
 
 ## Acknowledgements
 This code is built on [dknn_attack](https://github.com/chawins/dknn_attack) (PyTorch). We thank the authors for sharing their codes.
