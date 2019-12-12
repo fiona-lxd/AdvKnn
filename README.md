@@ -1,5 +1,5 @@
 # AdvKnn: Adversarial Attacks On K-Nearest Neighbor Classifiers With Approximate Gradients
-This repository contains a PyTroch implementation of the algorithm presented in the paper AdvKnn: Adversarial Attacks On K-Nearest Neighbor Classifiers With Approximate Gradients. [https://arxiv.org/abs/1911.06591](https://arxiv.org/abs/1911.06591)
+This repository contains a PyTorch implementation of the algorithm presented in the paper AdvKnn: Adversarial Attacks On K-Nearest Neighbor Classifiers With Approximate Gradients. [https://arxiv.org/abs/1911.06591](https://arxiv.org/abs/1911.06591)
 
 ## AdvKnn
 
@@ -49,7 +49,7 @@ We have provided the pretrained knn model for mnist dataset in this [url](https:
 }
 ```
 ## Contact
-For questions please contact Yuefeng Chen at fiona.lxd@alibaba-inc.com.
+For questions please contact Xiaodan Li at fiona.lxd@alibaba-inc.com.
 
 ## Acknowledgements
 This code is built on [dknn_attack](https://github.com/chawins/dknn_attack) (PyTorch). We thank the authors for sharing their codes.
