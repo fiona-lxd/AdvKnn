@@ -1,5 +1,5 @@
 # AdvKnn: Adversarial Attacks On K-Nearest Neighbor Classifiers With Approximate Gradients
-This repository contains a PyTorch implementation of the algorithm presented in the paper AdvKnn: Adversarial Attacks On K-Nearest Neighbor Classifiers With Approximate Gradients. [https://arxiv.org/abs/1911.06591](https://arxiv.org/abs/1911.06591)
+This repository contains a PyTorch implementation of the algorithm presented in the paper AdvKnn: Adversarial Attacks On K-Nearest Neighbor Classifiers With Approximate Gradients.
 
 ## AdvKnn
 
